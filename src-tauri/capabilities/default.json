@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Minimal desktop shell. No filesystem, process, shell or provider access.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
