@@ -1,0 +1,22 @@
+# Node / frontend
+node_modules/
+dist/
+.next/
+.env
+.env.*
+!.env.example
+
+# Rust / Tauri
+/target/
+**/target/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Local state / credentials
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
